@@ -11,4 +11,5 @@ router.post("/",protect,admin,createEvent);
 router.put("/:id",protect,admin,updateEvent);
 router.delete("/:id",protect,admin,deleteEvent);
 
-modle.exports=router;
+module.exports=router;
+

@@ -1,6 +1,6 @@
 const Event = require('../models/Event');
 
-exports.getEvents = async (req, res) => {
+exports.getAllEvents = async (req, res) => {
     try {
         const filters = {};
         if (req.query.category) filters.category = req.query.category;
